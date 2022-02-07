@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+body{
+  background-color: rgb(218, 165, 116);
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-family: 'Lato', sans-serif;
+}
+
+.fields{
+  margin-left: 20px;
+  margin-top: 45px;
+  
+}
+.calculator{
+  background-color: rgb(45, 45, 54);
+  height: 580px;
+  width: 330px;
+  margin-top: 65px;
+  border-radius: 35px;
+} 
+input[type='text']{
+  width: 280px;
+  height: 100px;
+  font-size: 50px;
+  margin-top: 50px;
+  text-align: right;
+  background-color: transparent ;
+  border: none;
+  outline: none;
+  color: white;
+}
+input[type='button']{
+  margin-top: 35px;
+  width: 50px;
+  height: 35px;
+  color: white;
+  background-color: transparent;
+  box-shadow: 1px 2px 6px 5px rgb(36, 36, 41);
+  border: none;
+  cursor: pointer;
+  font-size: 15px;
+}
+input:nth-child(3),input:nth-child(2),input:nth-child(4){
+  margin-left: 30px;
+}
+
+#equalBtn{
+  width: 130px;
+  height: 50px; 
+  background-color: orange;
+  font-size: 30px;
+}
+#orange{
+  color: orange;
+  font-size: 20px;
+}
+
+
+
